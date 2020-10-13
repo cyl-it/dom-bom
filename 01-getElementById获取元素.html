@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="time">2020-01-20</div>
+    <script>
+        //1.文档页面从上往下加载，要先有标签，script写在标签下面
+        //2.get 获得 Element 元素 By 通过 Id   驼峰命名法
+        //3.参数 id 是大小写敏感的字符串
+        //4.返回一个元素对象
+        var timer = document.getElementById('time');
+        console.log(timer);
+        console.log(typeof timer);//object
+        //5.console.dir 打印返回的元素对象，更好查看里面的属性和方法
+        console.dir(timer);
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="div">点击一下</div>
+    <script>
+        //事件处理过程
+         //1.获取事件源
+         var div = document.getElementById('div');
+         //2.绑定事件/注册事件
+         //div.onclick
+         //3.添加事件处理程序(采取函数赋值形式)
+         div.onclick = function(){
+             console.log('被点击了');
+         }
+    </script>
+</body>
+</html>
